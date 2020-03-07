@@ -18,7 +18,7 @@ class Event {
         Tech.fromJson(json["tech"]),
         List<EventDetail>.from(
             json["non-tech"].map((x) => EventDetail.fromJson(x))),
-        List<EventDetail>.from(json["workshop"].map((x) => x)),
+        List<EventDetail>.from(json["wk"].map((x) => x)),
         List<EventDetail>.from(
             json["cultural"].map((x) => EventDetail.fromJson(x))),
         List<EventDetail>.from(

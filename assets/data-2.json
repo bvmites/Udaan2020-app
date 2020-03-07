@@ -946,6 +946,111 @@
       "outcome": "Participants will get the knowledge of basics of Aeronautics design along with fun and healthy competition"
     }
   ],
+  "workshop": [
+    {
+      "id": "WS1",
+      "participants": [],
+      "tagline":null,
+      "outcome": null,
+      "managers": [],
+      "prizeMoney": 0,
+      "entryFee": 200,
+      "eventName": "Six Sigma Yellow Belt Certification",
+      "rounds": [
+        "Six Sigma Yellow Belt Certification course by master black belt certified trainer.\nCertificate will be authentic proof of yellow belt"
+      ],
+      "teamSize": 1
+    },
+    {
+      "id": "WS2",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 50,
+      "eventName": "Workshop on stock market trading",
+      "managers": [],
+      "rounds": [
+        "Basics of stock market\nEffective trading\nTips & tricks"
+      ],
+      "teamSize": 1
+    },
+    {
+      "id": "WS3",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 150,
+      "eventName": "UNITY AR-VR WORKSHOP",
+      "managers": [
+        {
+          "name": "Darshan Tripathi",
+          "phone": "9904032167"
+        },
+        {
+          "name": "Nishita",
+          "phone": "8160947823"
+        },
+        {
+          "name": "Prashant Khunt",
+          "phone": "8238439225"
+        }
+      ],
+      "rounds": [
+        "Introduction and demonstration",
+        "Implementation and VR kit distribution"
+      ],
+      "tagline": "Virtually augment your reality",
+      "teamSize": 1,
+      "outcome": "Participants will get an in-depth knowledge along with practical exposure of Unity"
+    },
+    {
+      "id": "WS4",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 100,
+      "eventName": "Introduction to ANSYS MAXWELL",
+      "managers": [
+        {
+          "name": "Neel Patel",
+          "phone": "9428166033"
+        },
+        {
+          "name": "Anuja Karavadra",
+          "phone": "8511284217"
+        }
+      ],
+      "rounds": [
+        "Introduction to ANSYS workbench, implementation of electrical systems and its analysis",
+        "Implementation of wireless charging simulation"
+      ],
+      "teamSize": 2,
+      "outcome": "Participants will get an in-depth knowledge along with practical exposure of ANSYS MAXWELL"
+    },
+    {
+      "id": "WS5",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 150,
+      "eventName": "Workshop on Communication networks",
+      "managers": [
+        {
+          "name": "Viraj Sadhle",
+          "phone": "8160940692"
+        },
+        {
+          "name": "Darshana Kumari",
+          "phone": "8460745725"
+        },
+        {
+          "name": "Bhargav Naria",
+          "phone": "9723556233"
+        }
+      ],
+      "rounds": [
+        "Fundamentals concepts about working of TCP/IP layers and OSI model along with explanation of what goes on into each layer and simultaneous simulation would be shown for the same. Other topics covered: ad hoc and circuit networks, various protocols along with reference to real life examples"
+      ],
+      "teamSize": 1,
+      "outcome": "Get deeper insight of various layers of communication and their application"
+    }
+  ],
   "cultural": [
     {
       "id": "C1",
@@ -1125,6 +1230,5 @@
       "tagline": "“Towards Smart Charotar”",
       "teamSize": 2
     }
-  ],
-  "wk": []
-}   
+  ]
+}

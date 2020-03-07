@@ -27,7 +27,11 @@ class _DepartmentsState extends State<Departments> {
       case "EL":
         eventList = widget.event.tech.ecel;
         break;
+      case "EE":
+        eventList = widget.event.tech.ee;
+        break;
     }
+    print("list" + eventList.toString());
     Navigator.push(
         context,
         MaterialPageRoute(

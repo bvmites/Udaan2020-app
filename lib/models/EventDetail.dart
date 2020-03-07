@@ -1,16 +1,16 @@
 import 'Manager.dart';
 
 class EventDetail {
-  String _id;
-  List<String> _participants;
-  int _prizeMoney;
-  int _entryFee;
-  String _eventName;
-  List<Manager> _managers;
-  List<String> _rounds;
-  String _tagline;
-  int _teamSize;
-  String _objective;
+  var _id;
+  List _participants;
+  var _prizeMoney;
+  var _entryFee;
+  var _eventName;
+  List _managers;
+  List _rounds;
+  var _tagline;
+  var _teamSize;
+  var _objective;
 
   String get id => _id;
 
@@ -40,7 +40,7 @@ class EventDetail {
         List<String>.from(json["rounds"].map((x) => x)),
         json["tagline"],
         json["teamSize"],
-        json["objective"],
+        json["outcome"],
       );
 
   List<String> get participants => _participants;

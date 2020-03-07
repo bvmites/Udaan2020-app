@@ -1,8 +1,13 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:udaan2020/models/EventDetail.dart';
+import 'package:udaan2020/models/Manager.dart';
 import 'ListEvents.dart';
 import 'models/Event.dart';
 import 'Departments.dart';
+import 'package:liquid_swipe/Constants/Helpers.dart';
+import 'package:liquid_swipe/liquid_swipe.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -16,8 +21,15 @@ class _HomePageState extends State<HomePage> {
     "Technical",
     "Non-Technical",
     "Cultural",
-    "Star",
+    "Flagship",
     "Workshop"
+  ];
+  final icons = [
+    "assets/images/tech.jpeg",
+    "assets/images/nonTech.png",
+    "assets/images/Mad.png",
+    "assets/images/StarEvent.png",
+    "assets/images/workshop.png"
   ];
   void go(index) {
     if (events[index].compareTo("Technical") == 0) {
@@ -33,7 +45,7 @@ class _HomePageState extends State<HomePage> {
         case "Cultural":
           eventList = event.cultural;
           break;
-        case "Star":
+        case "Flagship":
           eventList = event.star;
           break;
         case "Workshop":
@@ -51,6 +63,17 @@ class _HomePageState extends State<HomePage> {
     String s =
         await DefaultAssetBundle.of(context).loadString("assets/data.json");
     event = eventFromJson(s);
+//    var jsonString = json.decode(s);
+//    print(jsonString['non-tech'][0]["managers"][0]);
+//    Manager e =
+//        Manager.fromJson(json.decode(jsonString["non-tech"][0]["managers"][0]));
+//    print(jsonString['non-tech'][0]['id']);
+    print("disp called");
+    print("tech" + event.tech.ee[1].eventName);
+    print("nontech" + event.nonTech.toString());
+    print("falg" + event.star.toString());
+    print("cult" + event.cultural.toString());
+    print("wor" + event.workshop.toString());
   }
 
   @override
@@ -67,6 +90,7 @@ class _HomePageState extends State<HomePage> {
           itemCount: events.length,
           itemBuilder: (context, index) {
             return ListTile(
+              leading: Image.asset(icons[index]),
               title: Text(events[index]),
               onTap: () => go(index),
             );

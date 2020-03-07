@@ -582,549 +582,65 @@
       }
     ]
   },
-  "non-tech": [
+  "non-tech": [],
+  "workshop": [
     {
-      "id": "NT1",
+      "id": "WS1",
       "participants": [],
       "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Dharma-e-Kshetra",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
+      "entryFee": 200,
+      "eventName": "Six Sigma Yellow Belt Certification",
+      "managers": [],
       "rounds": [
-        "Quiz based on Mythological & Historical Events",
-        "Extempore (Hindi & Gujarati) on any random allotted character",
-        "Participant has to adopt specific character and appear for personality contest"
+        "Six Sigma Yellow Belt Certification course by master black belt certified trainer.\nCertificate will be authentic proof of yellow belt"
       ],
+      "tagline": null,
       "teamSize": 1,
-      "outcome": "Enhanced exposure on mythology and public speaking"
+      "outcome": null
     },
     {
-      "id": "NT2",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Dharma-e-Kshetra",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Riddle based on Memes",
-        "Meme-Charades",
-        "Story Creation / Standup using memes (Surprize Round)"
-      ],
-      "tagline": "“Meme hi Zindagi hai”",
-      "teamSize": 1,
-      "outcome": "Meme-Review"
-    },
-    {
-      "id": "NT3",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Series-e-Majic",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Quiz Based on Series\nFriends , Suits, BigBang , GoT , Breakingbad",
-        "Particular Scene will  , participants has to write the script as per choice of series",
-        "Scene-e- magic of the round2 Script"
-      ],
-      "tagline": "“Netflix &amp; Theatrix”",
-      "teamSize": 3,
-      "outcome": "Exposure to script"
-    },
-    {
-      "id": "NT4",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "BVM Moot Court",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Participants will be given a specific Case and they have to defend the case with legal base. Necessary guidance will be provided"
-      ],
-      "tagline": "“Baap ki adalat”",
-      "teamSize": 2,
-      "outcome": "Legal Aspects of Society"
-    },
-    {
-      "id": "NT5",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 10,
-      "eventName": "Foyer Samvad",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "On Spot Debate on recent Issues"
-      ],
-      "tagline": "“BVM wants to know!”",
-      "teamSize": 1,
-      "outcome": "Enhanced exposure on mythology and public speaking"
-    },
-    {
-      "id": "NT6",
+      "id": "WS2",
       "participants": [],
       "prizeMoney": 0,
       "entryFee": 50,
-      "eventName": "Grand Treasurehunt",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
+      "eventName": "Workshop on stock market trading",
+      "managers": [],
       "rounds": [
-        "Place",
-        "Person",
-        "Find the treasure"
+        "Basics of stock market\nEffective trading\nTips & tricks"
       ],
-      "tagline": "“Decode- Find - Hunt”",
-      "teamSize": 2,
-      "outcome": "Enjoy"
-    },
-    {
-      "id": "NT7",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "રાજા નો ખજાનો",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Find Hidden Items in BVM.\nMaximum Collection will be considered as winner"
-      ],
-      "tagline": "“Thief in the night”",
-      "teamSize": 2,
-      "outcome": "Enhanced exposure on mythology and public speaking"
-    },
-    {
-      "id": "NT8",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Math- πRates",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Team needs to perform some physical activities like playing with ball, rope skipping, jumping, Running etc. simultaneously they have to solve some moderate level math and logical questions",
-        "Two team members are seating opposite to each other facing their back. One has laptop screen showing some geometrical figure and needs to narrate it to the other team member and he/she needs to draw it",
-        "We will give puzzles to one member of the teams and they need some numbers to complete puzzles and that numbers will be distributed randomly to all other members of the teams on the cards. Member who solving puzzles will get chance based on quick  questioning - answering of basic logical question. During their term they can ask for numbers from any person if number is needed then he/she can take it or they can discard it. Next term will be given based on quick questioning – answering and so on"
-      ],
-      "tagline": "“Math-e-magic”",
-      "teamSize": 2
-    },
-    {
-      "id": "NT9",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "SSB",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Participants will be given several negative words using same words they have to form a positive sentence",
-        "Participants have to perform physical task such as skipping , crouching , pushups etc",
-        "Pitcure perception in which a blur picture will be shown and have to write a story on what they derive from it",
-        "Personal Interview"
-      ],
-      "tagline": "“Service Before Self”",
+      "tagline": null,
       "teamSize": 1,
-      "outcome": "Practical exposure of Defence selection"
+      "outcome": null
     },
     {
-      "id": "NT10",
+      "id": "WS3",
       "participants": [],
       "prizeMoney": 0,
-      "entryFee": 50,
-      "eventName": "BVM MUN",
+      "entryFee": 150,
+      "eventName": "UNITY AR-VR WORKSHOP",
       "managers": [
         {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
+          "name": "Darshan Tripathi",
+          "phone": "9904032167"
+        },
+        {
+          "name": "Nishita",
+          "phone": "8160947823"
+        },
+        {
+          "name": "Prashant Khunt",
+          "phone": "8238439225"
         }
       ],
       "rounds": [
-        "Pen paper quiz based on current affairs and General Knowledge",
-        "A political debate will be conducted on the political issues and participant team will have to debate on that particular topic",
-        "In which participant will be made delegate of a particular country and he has to present his nation in UN. An issue will be given on which they have to debate and entire house has to come up with a final solution to the issue"
+        "Introduction and demonstration",
+        "Implementation and VR kit distribution"
       ],
-      "tagline": "“Are you a true diplomat?”",
+      "tagline": "Virtually augment your reality",
       "teamSize": 1,
-      "outcome": "Practical exposure of Defence selection"
-    },
-    {
-      "id": "NT11",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 50,
-      "eventName": "Student of the year",
-      "managers": [
-        {
-          "name": "Bhavya Tentiya",
-          "phone": "9016250979"
-        }
-      ],
-      "rounds": [
-        "Pen paper base test\nTopic will be: GK and current affairs, riddles and puzzle",
-        "Physical activity\nParticipants have to perform physical task",
-        "Treasure Hunt"
-      ],
-      "tagline": "“May the best win”",
-      "teamSize": 1
-    },
-    {
-      "id": "NT12",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 40,
-      "eventName": "F.R.I.E.N.D.S",
-      "managers": [
-        {
-          "name": "Malay Virani",
-          "phone": "90331995871"
-        },
-        {
-          "name": "Dhruvraj Kathiya",
-          "phone": "9081698132"
-        }
-      ],
-      "rounds": [
-        "A test Based on friendship. Same Question paper will be given to both participants",
-        "Ganna Bajana\nOne participant will wear earphone and he/she need to judge his/her partner’s word by lip movement and action",
-        "True friends\nThere will be a task based on teamwork. One of the participants have to follow the instructions, which will be given by his friend"
-      ],
-      "tagline": "“I’ll be there for you!”",
-      "teamSize": 2
-    },
-    {
-      "id": "NT13",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 40,
-      "eventName": "Guru",
-      "managers": [
-        {
-          "name": "Malay Virani",
-          "phone": "90331995871"
-        },
-        {
-          "name": "Dhruvraj Kathiya",
-          "phone": "9081698132"
-        }
-      ],
-      "rounds": [
-        "Do odd jobs or anything entertaining and collect money as much as possible within time limit and submit at the end",
-        "Collect the things mentioned in a list in 30 mins",
-        "Collect the things mentioned in a list in 30 mins"
-      ],
-      "tagline": "“Touch the sky!!”",
-      "teamSize": 2
-    },
-    {
-      "id": "NT14",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Roadies",
-      "managers": [
-        {
-          "name": "Malay Virani",
-          "phone": "90331995871"
-        },
-        {
-          "name": "Dhruvraj Kathiya",
-          "phone": "9081698132"
-        }
-      ],
-      "rounds": [
-        "In this round all the participants would be divided into teams of two / three. These teams would have to overcome certain hurdles as a group. On the basis of their performance, top 15-20 teams  would be selected for the next round",
-        "This round is basically based on individual’s capability to perform physically and mentally yet entertain exceptionally in the given scenario. From these participants top 10-15 participant would be selected for the next round",
-        "This would be a jury based round. Every challenger now will have to face a panel of three to four judges. Here we would be looking forward to a person who gives wittiest, humorous yet the most sensible answers"
-      ],
-      "tagline": "“Roadie banega..?”",
-      "teamSize": 2
-    },
-    {
-      "id": "NT15",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Dalal Street",
-      "managers": [
-        {
-          "name": "Malay Virani",
-          "phone": "90331995871"
-        },
-        {
-          "name": "Dhruvraj Kathiya",
-          "phone": "9081698132"
-        }
-      ],
-      "rounds": [
-        "Participant will get a virtual money and will have to make a maximum profit by trading"
-      ],
-      "tagline": "“You might be a redneck if you think the stock market has fence around it”",
-      "teamSize": 1
-    },
-    {
-      "id": "NT16",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "CS:GO",
-      "managers": [
-        {
-          "name": "Malay Virani",
-          "phone": "90331995871"
-        }
-      ],
-      "rounds": [
-        "Individual round:-DEATH MATCH",
-        "2 vs 2 match",
-        "AWP-GOD (Sniper Round)"
-      ],
-      "tagline": "“Kill until triumph”",
-      "teamSize": 1
-    },
-    {
-      "id": "NT19",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Fly-High!",
-      "managers": [
-        {
-          "name": "Darshil Mehta",
-          "phone": "9033583375"
-        },
-        {
-          "name": "Hemal Parmar",
-          "phone": "99243601630"
-        }
-      ],
-      "rounds": [
-        "Session based on Basics of Aeronautics",
-        "Explanation and demonstration of basic paper plane designs",
-        "Paper Airplane Contest"
-      ],
-      "tagline": "“Fly till you Glorify”",
-      "teamSize": 1,
-      "outcome": "Participants will get the knowledge of basics of Aeronautics design along with fun and healthy competition"
+      "outcome": "Participants will get an in-depth knowledge along with practical exposure of Unity"
     }
   ],
-  "cultural": [
-    {
-      "id": "C1",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Quizzitch",
-      "managers": [
-        {
-          "name": "Mrudang Oza",
-          "phone": "8469990274"
-        }
-      ],
-      "rounds": [
-        "Pen-Paper Round",
-        "Stage Round with multiple round including Buzzer round, Rapid fire, visual and other rounds"
-      ],
-      "tagline": "“Battle of Brains”",
-      "teamSize": 2
-    },
-    {
-      "id": "C2",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Antakshari",
-      "managers": [
-        {
-          "name": "Jal Joshi",
-          "phone": "9016821661"
-        },
-        {
-          "name": "Harsh Vaidya",
-          "phone": "9737249040"
-        }
-      ],
-      "rounds": [
-        "Elimination Round (normal Antakshari and dhun round)",
-        "Buzzer round, Dhun round and other interesting rounds"
-      ],
-      "tagline": "“Suro ka Mela”",
-      "teamSize": 2
-    },
-    {
-      "id": "C3",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 20,
-      "eventName": "Antakshari",
-      "managers": [
-        {
-          "name": "Shristy Singh",
-          "phone": "7043884177"
-        },
-        {
-          "name": "Kenil Naik",
-          "phone": "7069873600"
-        }
-      ],
-      "rounds": [
-        "Group Discussion (elimination round)",
-        "Devil’s Advocate- Each participant shall be given a personality, they shall have to become that identity in a court room",
-        "Personal Interview"
-      ],
-      "tagline": "“Do you have it within you?”",
-      "teamSize": 1
-    },
-    {
-      "id": "C4",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Bolly Mix Holly",
-      "managers": [
-        {
-          "name": "Muskan Gupta",
-          "phone": "8000656014"
-        }
-      ],
-      "rounds": [
-        "Pen-Paper Elimination (will include cross-word)",
-        "Stage Round with multiple round including buzzer round and dumb charades"
-      ],
-      "tagline": "“Black and White se Colour Tak!”",
-      "teamSize": 2
-    },
-    {
-      "id": "C5",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 30,
-      "eventName": "Qriosity (Biz-Tech)",
-      "managers": [
-        {
-          "name": "Gautam Vivekanandan",
-          "phone": "8758192989"
-        }
-      ],
-      "rounds": [
-        "Elimination round (Based on Business and Technology)",
-        "Stage Round with multiple round including Buzzer round , rapid fire round, visual rounds"
-      ],
-      "tagline": "“A Biz-Tech Quiz”",
-      "teamSize": 2
-    },
-    {
-      "id": "C5",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 20,
-      "eventName": "Shutter-up",
-      "managers": [
-        {
-          "name": "Harshal Patel",
-          "phone": "9016250979"
-        },
-        {
-          "name": "Pranav Mehta",
-          "phone": "8849294958"
-        }
-      ],
-      "rounds": [
-        "Virtual Round : Participants will be filtered on the basis of uploaded photos, 5 best photos will be exhibited",
-        "Pop Quiz : A quiz based on 'Photography Workshop' that includes technical aspects of photography",
-        "Jury Round : On spot photo hunt. Jury will give topics to participants and the deadline will be 4 hours. Participants will then present the photo"
-      ],
-      "tagline": "“Don't have a view, have vision”",
-      "teamSize": 1,
-      "outcome": "To bring out the best of creativity within"
-    }
-  ],
-  "star": [
-    {
-      "id": "NT17",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 100,
-      "eventName": "Vallabh Vidyanagar Ideathon",
-      "managers": [
-        {
-          "name": "Darshil Mehta",
-          "phone": "9033583375"
-        },
-        {
-          "name": "Hemal Parmar",
-          "phone": "99243601630"
-        }
-      ],
-      "rounds": [
-        "Nontech Idea pitching using policy , e-governance and politics",
-        "Tech Idea pitching ; Improvise VVN  using modern engineering techniques",
-        "SuperTech : Create VVN a Smart City Engineering Marvel"
-      ],
-      "tagline": "“Towards Smart Charotar”",
-      "teamSize": 2
-    },  {
-      "id": "NT18",
-      "participants": [],
-      "prizeMoney": 0,
-      "entryFee": 50,
-      "eventName": "B-Plan Contest",
-      "managers": [
-        {
-          "name": "Darshil Mehta",
-          "phone": "9033583375"
-        },
-        {
-          "name": "Hemal Parmar",
-          "phone": "99243601630"
-        }
-      ],
-      "rounds": [
-        "Become a perfectionist event manager",
-        "Become a perfectionist marketing strategist",
-        "Survive your business"
-      ],
-      "tagline": "“Towards Smart Charotar”",
-      "teamSize": 2
-    }
-  ],
-  "wk": []
-}   
+  "cultural": [],
+  "star": []
+}
