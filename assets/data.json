@@ -1,0 +1,375 @@
+{
+  "tech": {
+    "ce": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }],
+    "cpit": [
+      {
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }
+    ],
+    "mepr": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }],
+    "ecel": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }],
+    "ee": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }]
+  },
+  "non-tech": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }],
+  "workshop": [],
+  "cultural": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }],
+  "star": [{
+        "id": "5c6ab005a034092f8c482eda",
+        "participants": [
+          "6354794383",
+          "8866258959",
+          "9275953988",
+          "9512643337",
+          "9409084029",
+          "8128111696",
+          "9265299517",
+          "9067924224",
+          "9825778986",
+          "9979709576",
+          "8238853299",
+          "7048649897",
+          "8860384483",
+          "9638779502",
+          "8128694263",
+          "8200985424"
+        ],
+        "prizeMoney": 20,
+        "entryFee": 50,
+        "eventName": "Electro Musiciano",
+        "managers": [
+          {
+            "name": "Neel Patel",
+            "phone": "9712570166"
+          },
+          {
+            "name": "Vaibhav Yagneshwar",
+            "phone": "7383645136"
+          },
+          {
+            "name": "Harsh Patel",
+            "phone": "8758128258"
+          }
+        ],
+        "rounds": [
+          "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+          "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+          "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+        ],
+        "tagline": "“Driven by the Power of sound”",
+        "teamSize": 2,
+        "objective": null
+      }]
+}   
