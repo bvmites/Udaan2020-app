@@ -45,15 +45,20 @@ flutter:
   assets:
     - assets/data.json
     - assets/images/Civil.png
+    - assets/images/tech.png
     - assets/images/tech.jpeg
     - assets/images/Cpit.png
     - assets/images/Ecel.png
     - assets/images/ee.png
     - assets/images/Mad.png
+    - assets/images/Mad2.png
     - assets/images/mech.png
     - assets/images/nonTech.png
+    - assets/images/nonTech2.png
     - assets/images/StarEvent.png
+    - assets/images/StarEvent2.png
     - assets/images/workshop.png
+    - assets/images/workshop2.png
     - assets/images/cyberclan.jpeg
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg

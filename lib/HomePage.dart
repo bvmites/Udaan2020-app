@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:udaan2020/models/EventDetail.dart';
 import 'package:udaan2020/models/Manager.dart';
@@ -17,6 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   Event event;
   List<EventDetail> eventList;
+  List<Widget> children = [];
   List<String> events = [
     "Technical",
     "Non-Technical",
@@ -26,19 +26,19 @@ class _HomePageState extends State<HomePage> {
   ];
   final icons = [
     "assets/images/tech.jpeg",
-    "assets/images/nonTech.png",
-    "assets/images/Mad.png",
-    "assets/images/StarEvent.png",
-    "assets/images/workshop.png"
+    "assets/images/nonTech2.png",
+    "assets/images/Mad2.png",
+    "assets/images/StarEvent2.png",
+    "assets/images/workshop2.png"
   ];
   void go(index) {
-    if (events[index].compareTo("Technical") == 0) {
+    if (index.compareTo("Technical") == 0) {
       Navigator.push(
           context,
           MaterialPageRoute(
               builder: (BuildContext context) => Departments(event)));
     } else {
-      switch (events[index]) {
+      switch (index) {
         case "Non-Technical":
           eventList = event.nonTech;
           break;
@@ -63,17 +63,53 @@ class _HomePageState extends State<HomePage> {
     String s =
         await DefaultAssetBundle.of(context).loadString("assets/data.json");
     event = eventFromJson(s);
-//    var jsonString = json.decode(s);
-//    print(jsonString['non-tech'][0]["managers"][0]);
-//    Manager e =
-//        Manager.fromJson(json.decode(jsonString["non-tech"][0]["managers"][0]));
-//    print(jsonString['non-tech'][0]['id']);
-    print("disp called");
-    print("tech" + event.tech.ee[1].eventName);
-    print("nontech" + event.nonTech.toString());
-    print("falg" + event.star.toString());
-    print("cult" + event.cultural.toString());
-    print("wor" + event.workshop.toString());
+  }
+
+  void buildChildren() {
+    events.forEach((f) {
+      children.add(
+        GestureDetector(
+          onTap: () {
+            go(f);
+          },
+          child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(icons[events.indexOf(f)]),
+                fit: BoxFit.cover,
+                colorFilter: new ColorFilter.mode(
+                    Colors.black12.withOpacity(0.7), BlendMode.darken),
+              ),
+            ),
+            child: Container(
+              width: double.infinity,
+              height: 200,
+              child: Center(
+                  child: Text(
+                f,
+                style: TextStyle(
+                  fontSize: 60,
+                  color: Colors.white,
+                  fontFamily: "sad films",
+                  shadows: <Shadow>[
+                    Shadow(
+                      offset: Offset(10.0, 10.0),
+                      blurRadius: 3.0,
+                      color: Color.fromARGB(255, 0, 0, 0),
+                    ),
+                    Shadow(
+                      offset: Offset(10.0, 10.0),
+                      blurRadius: 8.0,
+                      color: Color.fromARGB(125, 0, 0, 0),
+                    ),
+                  ],
+                ),
+              )),
+            ),
+          ),
+        ),
+      );
+    });
   }
 
   @override
@@ -81,20 +117,31 @@ class _HomePageState extends State<HomePage> {
     // TODO: implement initState
     super.initState();
     disp();
+    buildChildren();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-          itemCount: events.length,
-          itemBuilder: (context, index) {
-            return ListTile(
-              leading: Image.asset(icons[index]),
-              title: Text(events[index]),
-              onTap: () => go(index),
-            );
-          }),
-    );
+        body: SingleChildScrollView(
+      child: Container(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 0),
+          child: Column(
+            children: children,
+          ),
+        ),
+      ),
+    )
+//      ListView.builder(
+//          itemCount: events.length,
+//          itemBuilder: (context, index) {
+//            return ListTile(
+//              leading: Image.asset(icons[index]),
+//              title: Text(events[index]),
+//              onTap: () => go(index),
+//            );
+//          }),
+        );
   }
 }
