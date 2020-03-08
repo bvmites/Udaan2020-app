@@ -600,6 +600,7 @@
         "Extempore (Hindi & Gujarati) on any random allotted character",
         "Participant has to adopt specific character and appear for personality contest"
       ],
+      "tagline": "“धर्मस्य मूलमर्थ”",
       "teamSize": 1,
       "outcome": "Enhanced exposure on mythology and public speaking"
     },
@@ -741,7 +742,8 @@
         "We will give puzzles to one member of the teams and they need some numbers to complete puzzles and that numbers will be distributed randomly to all other members of the teams on the cards. Member who solving puzzles will get chance based on quick  questioning - answering of basic logical question. During their term they can ask for numbers from any person if number is needed then he/she can take it or they can discard it. Next term will be given based on quick questioning – answering and so on"
       ],
       "tagline": "“Math-e-magic”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "NT9",
@@ -804,7 +806,8 @@
         "Treasure Hunt"
       ],
       "tagline": "“May the best win”",
-      "teamSize": 1
+      "teamSize": 1,
+      "outcome": null
     },
     {
       "id": "NT12",
@@ -828,7 +831,8 @@
         "True friends\nThere will be a task based on teamwork. One of the participants have to follow the instructions, which will be given by his friend"
       ],
       "tagline": "“I’ll be there for you!”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "NT13",
@@ -852,7 +856,8 @@
         "Collect the things mentioned in a list in 30 mins"
       ],
       "tagline": "“Touch the sky!!”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "NT14",
@@ -876,7 +881,8 @@
         "This would be a jury based round. Every challenger now will have to face a panel of three to four judges. Here we would be looking forward to a person who gives wittiest, humorous yet the most sensible answers"
       ],
       "tagline": "“Roadie banega..?”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "NT15",
@@ -898,7 +904,8 @@
         "Participant will get a virtual money and will have to make a maximum profit by trading"
       ],
       "tagline": "“You might be a redneck if you think the stock market has fence around it”",
-      "teamSize": 1
+      "teamSize": 1,
+      "outcome": null
     },
     {
       "id": "NT16",
@@ -918,7 +925,8 @@
         "AWP-GOD (Sniper Round)"
       ],
       "tagline": "“Kill until triumph”",
-      "teamSize": 1
+      "teamSize": 1,
+      "outcome": null
     },
     {
       "id": "NT19",
@@ -946,6 +954,115 @@
       "outcome": "Participants will get the knowledge of basics of Aeronautics design along with fun and healthy competition"
     }
   ],
+  "workshop": [
+    {
+      "id": "WS1",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 200,
+      "eventName": "Six Sigma Yellow Belt Certification",
+      "managers": [],
+      "rounds": [
+        "Six Sigma Yellow Belt Certification course by master black belt certified trainer.\nCertificate will be authentic proof of yellow belt"
+      ],
+      "tagline": null,
+      "teamSize": 1,
+      "outcome": null
+    },
+    {
+      "id": "WS2",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 50,
+      "eventName": "Workshop on stock market trading",
+      "managers": [],
+      "rounds": [
+        "Basics of stock market\nEffective trading\nTips & tricks"
+      ],
+      "tagline": null,
+      "teamSize": 1,
+      "outcome": null
+    },
+    {
+      "id": "WS3",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 150,
+      "eventName": "UNITY AR-VR WORKSHOP",
+      "managers": [
+        {
+          "name": "Darshan Tripathi",
+          "phone": "9904032167"
+        },
+        {
+          "name": "Nishita",
+          "phone": "8160947823"
+        },
+        {
+          "name": "Prashant Khunt",
+          "phone": "8238439225"
+        }
+      ],
+      "rounds": [
+        "Introduction and demonstration",
+        "Implementation and VR kit distribution"
+      ],
+      "tagline": "Virtually augment your reality",
+      "teamSize": 1,
+      "outcome": "Participants will get an in-depth knowledge along with practical exposure of Unity"
+    },
+    {
+      "id": "WS4",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 100,
+      "eventName": "Introduction to ANSYS MAXWELL",
+      "managers": [
+        {
+          "name": "Neel Patel",
+          "phone": "9428166033"
+        },
+        {
+          "name": "Anuja Karavadra",
+          "phone": "8511284217"
+        }
+      ],
+      "rounds": [
+        "Introduction to ANSYS workbench, implementation of electrical systems and its analysis",
+        "Implementation of wireless charging simulation"
+      ],
+      "tagline": null,
+      "teamSize": 2,
+      "outcome": "Participants will get an in-depth knowledge along with practical exposure of ANSYS MAXWELL"
+    },
+    {
+      "id": "WS5",
+      "participants": [],
+      "prizeMoney": 0,
+      "entryFee": 150,
+      "eventName": "Workshop on Communication networks",
+      "managers": [
+        {
+          "name": "Viraj Sadhle",
+          "phone": "8160940692"
+        },
+        {
+          "name": "Darshana Kumari",
+          "phone": "8460745725"
+        },
+        {
+          "name": "Bhargav Naria",
+          "phone": "9723556233"
+        }
+      ],
+      "rounds": [
+        "Fundamentals concepts about working of TCP/IP layers and OSI model along with explanation of what goes on into each layer and simultaneous simulation would be shown for the same. Other topics covered: ad hoc and circuit networks, various protocols along with reference to real life examples"
+      ],
+      "tagline": null,
+      "teamSize": 1,
+      "outcome": "Get deeper insight of various layers of communication and their application"
+    }
+  ],
   "cultural": [
     {
       "id": "C1",
@@ -964,7 +1081,8 @@
         "Stage Round with multiple round including Buzzer round, Rapid fire, visual and other rounds"
       ],
       "tagline": "“Battle of Brains”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "C2",
@@ -987,7 +1105,8 @@
         "Buzzer round, Dhun round and other interesting rounds"
       ],
       "tagline": "“Suro ka Mela”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "C3",
@@ -1011,7 +1130,8 @@
         "Personal Interview"
       ],
       "tagline": "“Do you have it within you?”",
-      "teamSize": 1
+      "teamSize": 1,
+      "outcome": null
     },
     {
       "id": "C4",
@@ -1030,7 +1150,8 @@
         "Stage Round with multiple round including buzzer round and dumb charades"
       ],
       "tagline": "“Black and White se Colour Tak!”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "C5",
@@ -1049,7 +1170,8 @@
         "Stage Round with multiple round including Buzzer round , rapid fire round, visual rounds"
       ],
       "tagline": "“A Biz-Tech Quiz”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },
     {
       "id": "C5",
@@ -1100,7 +1222,8 @@
         "SuperTech : Create VVN a Smart City Engineering Marvel"
       ],
       "tagline": "“Towards Smart Charotar”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     },  {
       "id": "NT18",
       "participants": [],
@@ -1123,8 +1246,8 @@
         "Survive your business"
       ],
       "tagline": "“Towards Smart Charotar”",
-      "teamSize": 2
+      "teamSize": 2,
+      "outcome": null
     }
-  ],
-  "wk": []
-}   
+  ]
+}
