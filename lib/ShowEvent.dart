@@ -12,7 +12,7 @@ class ShowEvent extends StatefulWidget {
 
 class _ShowEventState extends State<ShowEvent> {
   List<Manager> managers;
-  List<Widget> contacts = [];
+  List<Widget> contacts = [], rounds = [];
   @override
   void initState() {
     // TODO: implement initState
@@ -27,6 +27,14 @@ class _ShowEventState extends State<ShowEvent> {
         children: <Widget>[Text(f.name), Text(f.phone)],
       ));
     });
+    int c = 1;
+    widget.event.rounds.forEach((f) {
+      rounds.add(ListTile(
+        title: Text("Round " + c.toString()),
+        subtitle: Text(f),
+      ));
+      c++;
+    });
   }
 
   @override
@@ -38,25 +46,20 @@ class _ShowEventState extends State<ShowEvent> {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Text(widget.event.eventName),
-              Text(widget.event.tagline),
+              widget.event.tagline != null
+                  ? Text(widget.event.tagline)
+                  : Container(),
               Text("Entry Fees : " +
                   widget.event.entryFee.toString() +
                   "/" +
                   widget.event.teamSize.toString()),
               Divider(),
               Text("INSTRUCTIONS"),
-              ListTile(
-                title: Text("Round 1"),
-                subtitle: Text(widget.event.rounds[0]),
-              ),
-              ListTile(
-                title: Text("Round 2"),
-                subtitle: Text(widget.event.rounds[1]),
-              ),
-              ListTile(
-                title: Text("Round 3"),
-                subtitle: Text(widget.event.rounds[2]),
-              ),
+              widget.event.rounds != null
+                  ? Column(
+                      children: rounds,
+                    )
+                  : Container(),
               Text("Contact Us"),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
