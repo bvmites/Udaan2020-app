@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:udaan2020/Theme/Theme.dart';
 import 'package:udaan2020/models/EventDetail.dart';
 import 'ListEvents.dart';
 import 'models/Event.dart';
@@ -28,28 +29,34 @@ class _DepartmentsState extends State<Departments> {
   List<EventDetail> eventList;
   List<Widget> children = [];
   void go(index) {
+    String assetName;
     switch (index) {
       case "Cyber-Clan":
         eventList = widget.event.tech.cpit;
+        assetName = icons[0];
         break;
       case "Road to Urbanization":
         eventList = widget.event.tech.ce;
+        assetName = icons[1];
         break;
       case "Pulleying the Future":
         eventList = widget.event.tech.mepr;
+        assetName = icons[2];
         break;
       case "Wire-More to Wireless":
         eventList = widget.event.tech.ecel;
+        assetName = icons[3];
         break;
       case "Lighting Ears Ahead":
         eventList = widget.event.tech.ee;
+        assetName = icons[4];
         break;
     }
-    print("list" + eventList.toString());
+//    print("list" + eventList.toString());
     Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (BuildContext context) => ListEvents(eventList)));
+            builder: (BuildContext context) => ListEvents(eventList,assetName)));
   }
 
   void buildChildren() {
@@ -72,8 +79,8 @@ class _DepartmentsState extends State<Departments> {
               width: double.infinity,
               height: 200,
               child: Center(
-                  child: Text(
-                f,
+                  child: Text(f,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 45,
                   color: Colors.white,
@@ -109,6 +116,7 @@ class _DepartmentsState extends State<Departments> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: iosDarkThemeBlackBgColor,
         body: SingleChildScrollView(
       child: Container(
         child: Padding(

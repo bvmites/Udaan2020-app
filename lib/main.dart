@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:udaan2020/AboutPage.dart';
+
 import 'HomePage.dart';
 
 void main() => runApp(MyApp());
@@ -8,9 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme:
-          ThemeData(primarySwatch: Colors.blue, brightness: Brightness.light),
+      theme: ThemeData(
+          fontFamily: "sad films",
+          primarySwatch: Colors.blue, brightness: Brightness.dark),
       home: HomePage(),
+//      home: AboutPage(),
     );
   }
 }
