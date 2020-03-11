@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:udaan2020/Theme/Theme.dart';
 import 'package:udaan2020/models/EventDetail.dart';
 import 'package:udaan2020/models/Manager.dart';
 import 'ListEvents.dart';
@@ -32,6 +33,7 @@ class _HomePageState extends State<HomePage> {
     "assets/images/workshop2.png"
   ];
   void go(index) {
+    String assetName;
     if (index.compareTo("Technical") == 0) {
       Navigator.push(
           context,
@@ -41,21 +43,25 @@ class _HomePageState extends State<HomePage> {
       switch (index) {
         case "Non-Technical":
           eventList = event.nonTech;
+          assetName = icons[1];
           break;
         case "Cultural":
           eventList = event.cultural;
+          assetName = icons[2];
           break;
         case "Flagship":
           eventList = event.star;
+          assetName = icons[3];
           break;
         case "Workshop":
           eventList = event.workshop;
+          assetName = icons[4];
           break;
       }
       Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (BuildContext context) => ListEvents(eventList)));
+              builder: (BuildContext context) => ListEvents(eventList,assetName)));
     }
   }
 
@@ -87,6 +93,7 @@ class _HomePageState extends State<HomePage> {
               child: Center(
                   child: Text(
                 f,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 60,
                   color: Colors.white,
@@ -123,6 +130,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: iosDarkThemeBlackBgColor,
         body: SingleChildScrollView(
       child: Container(
         child: Padding(
@@ -133,15 +141,6 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
     )
-//      ListView.builder(
-//          itemCount: events.length,
-//          itemBuilder: (context, index) {
-//            return ListTile(
-//              leading: Image.asset(icons[index]),
-//              title: Text(events[index]),
-//              onTap: () => go(index),
-//            );
-//          }),
         );
   }
 }

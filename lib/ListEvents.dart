@@ -1,25 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:udaan2020/ShowEvent.dart';
+import 'package:udaan2020/Theme/Theme.dart';
 import 'package:udaan2020/models/EventDetail.dart';
+import 'package:udaan2020/widgets/CustomListEventsTile.dart';
 
 class ListEvents extends StatefulWidget {
-  List<EventDetail> events;
-  ListEvents(this.events);
+  final List<EventDetail> events;
+  String assetName;
+  ListEvents(this.events,this.assetName);
   @override
   _ListEventsState createState() => _ListEventsState();
 }
 
 class _ListEventsState extends State<ListEvents> {
-  List<String> eventNames = [];
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    widget.events.forEach((f) {
-      eventNames.add(f.eventName);
-    });
-  }
-
   void next(index) {
     Navigator.push(context, MaterialPageRoute(
         builder: (BuildContext context) => ShowEvent(widget.events[index])));
@@ -28,13 +22,11 @@ class _ListEventsState extends State<ListEvents> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: iosDarkThemeBlackBgColor,
       body: ListView.builder(
-          itemCount: eventNames.length,
+          itemCount: widget.events.length,
           itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(eventNames[index]),
-              onTap: () => next(index),
-            );
+            return CustomListEventsTile(eventName: widget.events[index].eventName,onTap: ()=>next(index),index: index,assetName: widget.assetName,);
           }),
     );
   }
