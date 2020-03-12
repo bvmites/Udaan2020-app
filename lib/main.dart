@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
         statusBarIconBrightness: Brightness.light,
         statusBarColor: Colors.transparent));
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Udaan 2020',
       theme: ThemeData(
           fontFamily: "sad films",
-          primarySwatch: Colors.blue, brightness: Brightness.dark),
+          primarySwatch: Colors.blue,
+          brightness: Brightness.dark),
 //      home: AboutPage(),
       home: SplashScreen(),
     );
