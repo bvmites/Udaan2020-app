@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:udaan2020/Theme/Theme.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DeveloperTab extends StatefulWidget {
   @override
@@ -22,41 +23,46 @@ class _StateDeveloperTab extends State<DeveloperTab> {
             technology: "FLUTTER",
             name: "Ahmed Gagan",
             mobileNumber: "8980052099",
-            gitHubLink: "http",
+            gitHubLink: "https://github.com/Ahmedgagan",
             position: "Flutter Developer",
             listIndex: 0,
+            email: "ahmedgagan3@gmail.com",
           ),
           ListItem(
             technology: "FLUTTER",
             name: "Ahmed Gagan",
             mobileNumber: "8980052099",
-            gitHubLink: "http",
+            gitHubLink: "https://github.com/Ahmedgagan",
             position: "Flutter Developer",
             listIndex: 1,
+            email: "ahmedgagan3@gmail.com",
           ),
           ListItem(
             technology: "WEB",
-            name: "Ahmed Gagan",
+            name: "Mitesh Chaudhary",
             mobileNumber: "8980052099",
-            gitHubLink: "http",
-            position: "VIU JS",
+            gitHubLink: "https://github.com/Ahmedgagan",
+            position: "VUE JS",
             listIndex: 2,
+            email: "mitesh@gmail.com",
           ),
           ListItem(
             technology: "WEB",
             name: "Ahmed Gagan",
             mobileNumber: "8980052099",
-            gitHubLink: "http",
-            position: "VIU JS",
+            gitHubLink: "https://github.com/Ahmedgagan",
+            position: "VUE JS",
             listIndex: 3,
+            email: "ahmedgagan3@gmail.com",
           ),
           ListItem(
             technology: "FLUTTER",
             name: "Ahmed Gagan",
             mobileNumber: "8980052099",
-            gitHubLink: "http",
+            gitHubLink: "https://github.com/Ahmedgagan",
             position: "Flutter Developer",
             listIndex: 4,
+            email: "ahmedgagan3@gmail.com",
           ),
         ],
       ),
@@ -67,6 +73,7 @@ class ListItem extends StatelessWidget {
   String technology;
   String name;
   String mobileNumber;
+  String email;
   String gitHubLink;
   String position;
   int listIndex;
@@ -77,7 +84,8 @@ class ListItem extends StatelessWidget {
       this.mobileNumber,
       this.gitHubLink,
       this.position,
-      this.listIndex});
+      this.listIndex,
+      this.email});
 
   @override
   Widget build(BuildContext context) {
@@ -94,12 +102,11 @@ class ListItem extends StatelessWidget {
             Expanded(
               flex: 3,
               child: Center(
-                child: CircleAvatar(
-                  radius: 45,
-//                  child: Icon(Icons.developer_mode),
+                child: Container(
                   child: SvgPicture.asset(
                     (technology=="FLUTTER")?"assets/images/flutterLogo.svg":"assets/images/webDeveloper.svg",
                       color: whiteFontColor,
+                      fit: BoxFit.cover,
                       height: 60,
                       width: 60,
                   ),
@@ -120,8 +127,7 @@ class ListItem extends StatelessWidget {
                                 width: double.infinity,
                                 child: Text(
                                   name,
-                                  style:
-                                      TextStyle(letterSpacing: 2, fontSize: 20),
+                                  style: TextStyle(letterSpacing: 2, fontSize: 20,),
                                   textAlign: TextAlign.right,
                                 )),
                             Container(
@@ -140,6 +146,14 @@ class ListItem extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: <Widget>[
                             GestureDetector(
+                              onTap:() async{
+                                String url = "tel:"+mobileNumber;
+                                if (await canLaunch(url)) {
+                                  await launch(url);
+                                } else {
+                                  print('Could not launch $url');
+                                }
+                              },
                               child: Container(
                                   margin: EdgeInsets.all(8),
                                   child: Center(
@@ -149,6 +163,14 @@ class ListItem extends StatelessWidget {
                               ))),
                             ),
                             GestureDetector(
+                              onTap:() async{
+                                String url = "mailto:"+email+"?subject=Developer%20Invitation%20from%20udaan2020%20Application&body=Hey%20I%20have%20a%20developing%20related%20work%20for%20you";
+                                if (await canLaunch(url)) {
+                                  await launch(url);
+                                } else {
+                                  print('Could not launch $url');
+                                }
+                              },
                               child: Container(
                                 margin: EdgeInsets.all(8),
                                   child: Center(
@@ -158,6 +180,14 @@ class ListItem extends StatelessWidget {
                               ))),
                             ),
                             GestureDetector(
+                              onTap:() async{
+                                String url = gitHubLink;
+                                if (await canLaunch(url)) {
+                                  await launch(url);
+                                } else {
+                                  print('Could not launch $url');
+                                }
+                              },
                               child: Container(
                                   margin: EdgeInsets.all(8),
                                   child: Center(

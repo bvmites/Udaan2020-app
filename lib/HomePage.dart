@@ -1,13 +1,9 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:udaan2020/Theme/Theme.dart';
 import 'package:udaan2020/models/EventDetail.dart';
-import 'package:udaan2020/models/Manager.dart';
 import 'ListEvents.dart';
 import 'models/Event.dart';
 import 'Departments.dart';
-import 'package:liquid_swipe/Constants/Helpers.dart';
-import 'package:liquid_swipe/liquid_swipe.dart';
 
 class HomePage extends StatefulWidget {
   @override

@@ -3,12 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:udaan2020/Theme/Theme.dart';
 import 'package:udaan2020/models/EventDetail.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'models/Manager.dart';
 
 class ShowEvent extends StatefulWidget {
   EventDetail event;
-
   ShowEvent(this.event);
 
   @override
@@ -66,7 +64,7 @@ class _ShowEventState extends State<ShowEvent> {
               border: getBorder(c-1)
             ),
             child: ListTile(
-        title: Text(
+            title: Text(
             "Round " + c.toString(),
             style: TextStyle(
                 letterSpacing: 2,
