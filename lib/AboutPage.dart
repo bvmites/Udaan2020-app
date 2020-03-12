@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:udaan2020/Theme/Theme.dart';
+import 'package:udaan2020/widgets/AuboutTab.dart';
 import 'package:udaan2020/widgets/DeveloperTab.dart';
 
 class AboutPage extends StatefulWidget {
@@ -19,7 +20,7 @@ class _StateAboutPage extends State<AboutPage> {
             SliverAppBar(
               title: Text(
                 "About",
-                style: TextStyle(color: whiteFontColor,letterSpacing: 2),
+                style: TextStyle(color: whiteFontColor, letterSpacing: 2),
               ),
               backgroundColor: iosDarkThemeBlackBgColor,
               expandedHeight: 230.0,
@@ -37,10 +38,15 @@ class _StateAboutPage extends State<AboutPage> {
                 TabBar(
                   indicatorColor: lightBlue,
                   labelColor: whiteFontColor,
-                  labelStyle: TextStyle(fontSize: 18,fontFamily: "sad films",letterSpacing: 2),
+                  labelStyle: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "sad films",
+                      letterSpacing: 2),
                   unselectedLabelColor: Colors.grey,
                   tabs: [
-                    Tab(text: "Developers",),
+                    Tab(
+                      text: "Developers",
+                    ),
                     Tab(text: "About"),
                   ],
                 ),
@@ -52,13 +58,14 @@ class _StateAboutPage extends State<AboutPage> {
         body: TabBarView(
           children: [
             DeveloperTab(),
-            Container(color: iosDarkThemeBlackBgColor,)
+            AboutUs()
           ],
         ),
       ),
     ));
   }
 }
+
 class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   _SliverAppBarDelegate(this._tabBar);
 
@@ -66,6 +73,7 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 
   @override
   double get minExtent => _tabBar.preferredSize.height;
+
   @override
   double get maxExtent => _tabBar.preferredSize.height;
 
