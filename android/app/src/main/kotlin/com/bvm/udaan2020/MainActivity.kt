@@ -1,4 +1,4 @@
-package shivam.com.udaan2020
+package com.bvm.udaan2020
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
